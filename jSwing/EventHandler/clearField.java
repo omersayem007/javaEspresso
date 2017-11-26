@@ -15,7 +15,7 @@ public class clearField implements ActionListener {
 		 Login ob = Login.getRef();
 		 
 		 ob.user.setText("");
-		 ob.password.setPassword("");
+		 ob.password.setText("");
 		
 	}
 

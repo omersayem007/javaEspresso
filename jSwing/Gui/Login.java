@@ -10,7 +10,7 @@ public class Login extends JPanel {
 	private JLabel passwordLevel;
 	
   public JTextField user;
-	public JPasswordField password;
+	public JTextField password;
 	
 	public JButton clear;
 	public JButton submit;
@@ -50,7 +50,7 @@ public class Login extends JPanel {
 		this.passwordLevel.setBounds(50,25+40,100, 25);
 		this.add(this.passwordLevel);
 		
-		this.password = new JPasswordField();
+		this.password = new JTextField();
 		this.password.setBounds(50+50+40,25+40, 100, 25);
 		this.add(this.password);
 

@@ -7,7 +7,7 @@ public class MainClass {
 		Application ob = new Application();
 		
 		ob.getRef();
-	
+		
 	}
 
 }
