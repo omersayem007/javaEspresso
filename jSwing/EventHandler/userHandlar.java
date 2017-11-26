@@ -11,11 +11,14 @@ public class userHandlar implements ActionListener {
 	@Override
 	public void actionPerformed(ActionEvent arg0) {
 		
-		Login ob = Login.getRef();
+		Login ref = Login.getRef();
+
+		String User = ref.user.getText();
+		String Password =ref.password.getPassword();
 		
-		System.out.println( ob.user.getText() ) ;
+		System.out.println(User);
+		System.out.println(Password);
 		
-        System.out.println(ob.password.getText());
 		
 	}
 
